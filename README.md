@@ -1,16 +1,13 @@
+# Zargol Personal Portfolio — Self-contained build
 
-# Zargol Personal Portfolio
+This version embeds the critical images (profile photo + company logos + user-provided dubbing/hiking photos) directly inside `index.html`. There is no assets folder to forget on GitHub, so those images cannot break because of file paths.
 
-GitHub Pages-ready bilingual personal landing page for Zargol.
+## Upload to GitHub
+Upload these files directly to the repository root:
+- index.html
+- style.css
+- script.js
+- resume.html
+- README.md
 
-## Files
-- `index.html`
-- `style.css`
-- `script.js`
-- `resume.html`
-- `assets/`
-
-## Notes
-- Upload the **contents** of this folder directly to the root of your GitHub repository.
-- Do not upload the parent folder itself.
-- Then enable GitHub Pages from `Settings > Pages > Deploy from a branch > main > /(root)`.
+Then enable GitHub Pages from `Settings > Pages > Deploy from a branch > main > /(root)`.

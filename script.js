@@ -43,7 +43,7 @@ if(glow && matchMedia('(pointer:fine)').matches){
 $('#year').textContent = new Date().getFullYear();
 
 // Subtle tilt for interactive cards
-$$('.life-card,.cap-card,.result-card').forEach(card=>{
+$$('.life-card,.cap-card,.result-card,.ai-card,.focus-card,.brand-pill').forEach(card=>{
   card.addEventListener('mousemove',e=>{
     if(!matchMedia('(pointer:fine)').matches) return;
     const r=card.getBoundingClientRect();

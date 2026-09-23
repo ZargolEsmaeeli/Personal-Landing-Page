@@ -1,10 +1,6 @@
-# Image credits
+# Credits
 
-Interest-section imagery is loaded from Unsplash using remote image URLs.
-
-- Dubbing / recording: Unsplash photo URL used in the site.
-- Bodybuilding: Unsplash photo URL used in the site.
-- Hiking: Unsplash photo URL used in the site.
-- Oil painting: Unsplash photo URL used in the site.
-
-Profile image is extracted from the resume supplied by the site owner.
+- Personal photo and work-history source: user-provided CV.
+- Dubbing studio and hiking visuals: user-provided images.
+- Company brand images are embedded from user-provided/source materials used in this project.
+- Remaining lifestyle background imagery may load from Unsplash URLs referenced in the HTML.

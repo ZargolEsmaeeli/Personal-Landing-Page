@@ -28,3 +28,26 @@
 .life-card.local-photo:before{background-image:linear-gradient(to top,rgba(0,0,0,.82),rgba(0,0,0,.1)),var(--bg);background-size:cover;background-position:center}
 @media(max-width:950px){.belt-inner{grid-template-columns:1fr}.logo-grid{grid-template-columns:repeat(3,1fr)}.focus-grid{grid-template-columns:1fr 1fr}.job-headline{align-items:flex-start}.job-logo{width:98px}}
 @media(max-width:620px){.logo-grid{grid-template-columns:1fr 1fr}.belt-label{text-transform:none;letter-spacing:.05em}.focus-grid{grid-template-columns:1fr}.job-headline{flex-direction:column;align-items:flex-start}.job-logo{width:105px}.brand-pill{height:80px}}
+
+
+/* ===== V3: Persian polish, self-contained visuals & AI emphasis ===== */
+html[dir="rtl"] body{font-family:Vazirmatn,Tahoma,sans-serif;line-height:1.9}
+html[dir="rtl"] .hero-copy,html[dir="rtl"] .section-head,html[dir="rtl"] .about-copy,html[dir="rtl"] .smart-copy,html[dir="rtl"] .job-body,html[dir="rtl"] .contact-card{text-align:right}
+html[dir="rtl"] .hero h1,html[dir="rtl"] .split-heading h2,html[dir="rtl"] .section-head h2,html[dir="rtl"] .smart-copy h2,html[dir="rtl"] .skills-grid h2,html[dir="rtl"] .edu-grid h2{letter-spacing:0;line-height:1.35}
+html[dir="rtl"] .hero-lead,html[dir="rtl"] .about-copy,html[dir="rtl"] .section-head p,html[dir="rtl"] .job-body p{font-size:16px}
+.job-date{direction:ltr;unicode-bidi:isolate;white-space:nowrap}
+.job-logo{object-fit:contain!important;overflow:hidden}
+.brand-pill img{object-fit:contain!important;max-width:100%;max-height:48px}
+.portrait-shell img{display:block!important;opacity:1!important;visibility:visible!important}
+.ai-section{background:linear-gradient(180deg,#f8f5f0,#fff)}
+.ai-layout{display:grid;grid-template-columns:.8fr 1.2fr;gap:60px;align-items:start}
+.ai-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.ai-card{background:#fff;border:1px solid #e9e1da;border-radius:24px;padding:24px;box-shadow:0 12px 28px rgba(17,18,20,.05);transition:.28s;min-height:220px}
+.ai-card:hover{transform:translateY(-6px);border-color:#ffc7b1;box-shadow:0 18px 42px rgba(255,90,31,.12)}
+.ai-card span{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:50%;background:#fff1eb;color:var(--orange);font-size:11px;font-weight:900}
+.ai-card h3{font-size:20px;line-height:1.35;margin:28px 0 8px}
+.ai-card p{margin:0;color:#646970;font-size:14px;line-height:1.75}
+html[dir="rtl"] .ai-card{text-align:right}
+html[dir="rtl"] .skill-cloud{justify-content:flex-start}
+@media(max-width:950px){.ai-layout{grid-template-columns:1fr}.ai-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){.ai-grid{grid-template-columns:1fr}.job-date{text-align:left}html[dir="rtl"] .job-date{text-align:right}}
