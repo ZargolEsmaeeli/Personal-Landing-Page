@@ -3,3 +3,28 @@
 @media(max-width:950px){.nav-links{display:none}.menu-toggle{display:block;width:38px;height:38px;border:0;background:transparent}.menu-toggle span{display:block;width:20px;height:2px;background:#111;margin:4px auto}.mobile-menu.open{display:grid;position:fixed;top:76px;left:0;right:0;background:var(--warm);padding:22px 30px;gap:15px;border-bottom:1px solid var(--line)}.hero-grid,.smart-grid,.skills-grid,.edu-grid,.split-heading,.contact-card{grid-template-columns:1fr}.hero-visual{order:-1;min-height:460px}.portrait-shell{width:300px;height:350px}.ring-1{width:370px;height:370px}.ring-2{width:430px;height:430px}.impact-strip{grid-template-columns:1fr 1fr}.capability-grid,.results-grid{grid-template-columns:1fr 1fr}.life-grid{grid-template-columns:1fr 1fr;grid-template-rows:320px 320px}.timeline:before{left:95px}html[dir=rtl] .timeline:before{right:95px}.job{grid-template-columns:72px 1fr;gap:36px}.job:before{left:89px}html[dir=rtl] .job:before{right:89px}}
 @media(max-width:620px){.container{width:min(100% - 28px,1180px)}.section-pad{padding:78px 0}.nav-wrap{height:68px}.btn-small{display:none}.hero{padding-top:115px;min-height:auto}.hero h1{font-size:48px;letter-spacing:-2.5px}.hero-lead{font-size:16px}.hero-visual{min-height:400px}.portrait-shell{width:250px;height:295px}.ring-1{width:310px;height:310px}.ring-2{width:350px;height:350px}.orbit-chip{font-size:10px;padding:6px 9px}.hero-card{right:4%;bottom:-2%;min-width:205px}.impact-strip,.capability-grid,.results-grid,.life-grid{grid-template-columns:1fr}.life-grid{grid-template-rows:repeat(4,300px)}.split-heading h2,.section-head h2,.skills-grid h2,.edu-grid h2{font-size:38px}.system-map{height:430px}.timeline:before{left:20px}html[dir=rtl] .timeline:before{left:auto;right:20px}.job{grid-template-columns:1fr;padding-left:42px;gap:5px}html[dir=rtl] .job{padding-left:0;padding-right:42px}.job:before{left:14px;top:5px}html[dir=rtl] .job:before{left:auto;right:14px}.job-date{font-size:10px}.contact h2{font-size:45px}footer .container{flex-wrap:wrap}.cursor-glow{display:none}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
+
+
+/* --- Updated portfolio enhancements --- */
+
+.logo-belt{padding:6px 0 22px;background:var(--warm)}
+.belt-inner{display:grid;grid-template-columns:280px 1fr;gap:18px;align-items:center}
+.belt-label{font-size:12px;font-weight:900;letter-spacing:.12em;color:#60656d;text-transform:uppercase}
+.logo-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+.brand-pill{height:88px;background:#fff;border:1px solid var(--line);border-radius:22px;display:grid;place-items:center;padding:12px;box-shadow:0 10px 28px rgba(0,0,0,.05);transition:.25s}
+.brand-pill:hover{transform:translateY(-4px);box-shadow:0 18px 34px rgba(0,0,0,.08);border-color:#ffd2bf}
+.brand-pill img{max-width:100%;max-height:38px;object-fit:contain}
+.updated-smart-grid{align-items:start}
+.focus-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.focus-card{background:#fff;border:1px solid #eee3dc;border-radius:24px;padding:22px;box-shadow:0 14px 28px rgba(0,0,0,.04);transition:.25s}
+.focus-card:hover{transform:translateY(-5px);box-shadow:0 18px 36px rgba(255,90,31,.11);border-color:#ffc8b3}
+.focus-card span{font-size:11px;font-weight:900;color:var(--orange)}
+.focus-card h3{margin:18px 0 8px;font-size:19px;line-height:1.25}
+.focus-card p{margin:0;color:#666;line-height:1.65;font-size:14px}
+.job-headline{display:flex;align-items:center;gap:16px;margin-bottom:10px}
+.job-logo{width:110px;max-height:42px;object-fit:contain;flex:0 0 auto;background:#fff;border:1px solid #eee;border-radius:14px;padding:7px 10px;box-shadow:0 8px 20px rgba(0,0,0,.04)}
+.job-body strong{display:block;color:#40444a;margin-top:2px}
+.portrait-shell{background:linear-gradient(180deg,#d8d6d2,#f0eeea)}
+.life-card.local-photo:before{background-image:linear-gradient(to top,rgba(0,0,0,.82),rgba(0,0,0,.1)),var(--bg);background-size:cover;background-position:center}
+@media(max-width:950px){.belt-inner{grid-template-columns:1fr}.logo-grid{grid-template-columns:repeat(3,1fr)}.focus-grid{grid-template-columns:1fr 1fr}.job-headline{align-items:flex-start}.job-logo{width:98px}}
+@media(max-width:620px){.logo-grid{grid-template-columns:1fr 1fr}.belt-label{text-transform:none;letter-spacing:.05em}.focus-grid{grid-template-columns:1fr}.job-headline{flex-direction:column;align-items:flex-start}.job-logo{width:105px}.brand-pill{height:80px}}
