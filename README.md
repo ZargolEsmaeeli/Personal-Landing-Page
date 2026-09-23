@@ -1,13 +1,9 @@
-# Zargol Personal Portfolio — Self-contained build
+# Zargol Portfolio — Standalone GitHub Pages Version
 
-This version embeds the critical images (profile photo + company logos + user-provided dubbing/hiking photos) directly inside `index.html`. There is no assets folder to forget on GitHub, so those images cannot break because of file paths.
+This version embeds all website images, CSS, and JavaScript directly inside `index.html`.
 
-## Upload to GitHub
-Upload these files directly to the repository root:
+Upload these files directly to the root of your GitHub repository:
 - index.html
-- style.css
-- script.js
 - resume.html
-- README.md
 
-Then enable GitHub Pages from `Settings > Pages > Deploy from a branch > main > /(root)`.
+No assets folder is required for the landing page.
